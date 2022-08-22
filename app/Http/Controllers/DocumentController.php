@@ -16,7 +16,7 @@ class DocumentController extends Controller
    public function downloadPdf()
    {
        // フォント、スタイル、サイズ をセット
-       $this->pdf->setFont('kozminproregular','',10);
+       $this->pdf->setFont('kozminproregular','',30);
        // ページを追加
        $this->pdf->addPage();
        // HTMLを描画、viewの指定と変数代入

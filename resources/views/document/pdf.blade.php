@@ -7,8 +7,7 @@
         <title>PDF TEST</title>
     </head>
     <body>
-        {{-- <p>あいうえお漢字</p><br>  --}}
-        {{-- <p>Hello, {{ $name }}</p> --}}
-        <p>test</p>
+        <p>あいうえお漢字</p><br> 
+        <p>Hello, {{ $name }}</p>
     </body>
 </html>
