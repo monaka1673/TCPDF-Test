@@ -2,3 +2,5 @@
 
 
 PHPバージョン変更：[ubuntu20.04.1 phpのバージョンを切り替える](https://mebee.info/2020/08/17/post-16891/)
+
+改行：[MultiCell](http://tcpdf.penlabo.net/method/m/MultiCell.html)
