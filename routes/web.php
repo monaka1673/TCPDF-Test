@@ -15,5 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
- /* PDF TEST */
- Route::get('/pdf/test', 'DocumentController@downloadPdf');
+/* PDF TEST */
+Route::get('/pdf/test', 'DocumentController@downloadPdf');
+Route::get('/pdf/line_feed', 'DocumentController@lineFeed');
+Route::get('/pdf/multi_cell', 'DocumentController@multiCell');
